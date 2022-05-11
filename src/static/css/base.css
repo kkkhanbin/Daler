@@ -1,0 +1,44 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    padding-bottom: 20px;
+}
+
+.content {
+    margin-top: 1.5%;
+}
+
+p {
+    font-size: 140%;
+}
+
+.search-line > input, button {
+    display: inline-block;
+    white-space: nowrap
+}
+
+.margin-vertical {
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+}
+
+.item-outer {
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+}
+
+.item-inner {
+    margin: 1%;
+}
+
+.item {
+    margin: 0.5%;
+}
+
+.link {
+    color: black;
+    text-decoration: none;
+}
+
+.inline-block {
+    display: inline-block;
+}

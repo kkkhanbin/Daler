@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block head %}
+
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/index.css') }}">
+
+{% endblock %}
+
+{% block content %}
+
+<div class="border rounded-3 border-1 profile-info-out">
+    <div class="profile-info-in row g-0">
+        <div class="col-sm-8 col-md-2">
+            <a href="https://vk.com/reptyloyd" target="_blank">
+                <img src="{{ url_for('static', filename='img/daler_avatar.jpg') }}" alt="" width="128" height="128" class="rounded-circle border">
+            </a>
+        </div>
+
+        <div class="col-sm-2 col-md-6">
+            <p>
+                Великий мыслитель, мудрец и просто отличный муж. Любитель аниме-девочек и горячих мужчин. Как говорил он сам в интервью со Сталиным, он <em>"горячий пельмень"</em>
+            </p>
+        </div>
+
+    </div>
+
+</div>
+
+<a href="/interview" class="form-control btn btn-success">Интервью с великим человеком</a>
+
+
+{% endblock %}

@@ -7,19 +7,20 @@
 {% endblock %}
 
 {% block content %}
-<h1 class="title">
-    Информация о сайте Adventure Time
-</h1>
 
-<p>Данный сайт является проектом в Яндекс.Лицее. Автор - Сим Ханбин.<br>
-    Написан на языке программирования python, фреймворке flask.
-    <br><br>
-    Полезные ссылки:<br>
-    <a target="_blank" href="https://github.com/kkkhanbin/WEB-Yandex-project">github Проекта</a><br>
-</p>
+<div class="margin-vertical">
+    <h2>Эльдар</h2>
+    <p>Основал компанию EldarEdition, гений, миллиардер, плейбой, филантроп</p>
+</div>
 
-<h2>Зачем здесь этот автобус?</h2>
-<img src="{{ url_for('static', filename='img/about/bus.jpg') }}"
-     alt="Здесь могла быть ваша реклама" class="rounded-3" width="200" height="150">
+<div class="margin-vertical">
+    <h2>Далер</h2>
+    <p>Никому не известная девочка из села, ставшая настоящим айдолом!</p>
+</div>
+
+<div class="margin-vertical">
+    <h2>Ханбин</h2>
+    <p>Идеален, как ни посмотри</p>
+</div>
 
 {% endblock %}
